@@ -1,0 +1,46 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose0"
+        android:enabled="true"
+        android:icon = "@drawable/icon"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label0"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.static_shortcuts"
+            android:targetClass="com.example.static_shortcuts.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="compose1"
+        android:enabled="true"
+        android:icon = "@drawable/icon"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label1"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.static_shortcuts"
+            android:targetClass="com.example.static_shortcuts.Activity1" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="compose2"
+        android:enabled="true"
+        android:icon = "@drawable/icon"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label2"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.static_shortcuts"
+            android:targetClass="com.example.static_shortcuts.Activity2" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="compos3"
+        android:enabled="true"
+        android:icon = "@drawable/icon"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label3"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.static_shortcuts"
+            android:targetClass="com.example.static_shortcuts.Activity3" />
+    </shortcut>
+</shortcuts>
